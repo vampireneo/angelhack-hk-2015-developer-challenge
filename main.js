@@ -28,18 +28,16 @@ var dist = {
 };
 
 function translate(input) {
-	input = input.split("\n");
-	for(var i = 0; i < 3; i++) {
-		input[i] = input[i].split(" ");
-	}
-	for(var i = 0; i < input[0].length; i++) {
-		input[0][i] += input[1][i]+input[2][i];
-	}
-	input = input[0];
-	for(var i = 0; i < input.length; i++) {
-		input[i] = dist[input[i]];
-	}
-	return input.join("");
+	return input.split("\n").map(function(value) {
+		return value.split(" ");
+	}).reduce(function(a, b) {
+		for(var i = 0; i < a.length; i++) {
+			a[i] += b[i];
+		}
+		return a;
+	}).reduce(function(a, b) {
+		return a+dist[b];
+	}, "");
 }
 
 var test1 = "O. O. O. O. O. .O O. O. O. OO\n\
