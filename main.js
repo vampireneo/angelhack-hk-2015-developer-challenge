@@ -27,17 +27,19 @@ var dist = {
 	"O..OOO" : "z"
 };
 
-function translate(input) {
-	return input.split("\n").map(function(value) {
-		return value.split(" ");
-	}).reduce(function(a, b) {
-		for(var i = 0; i < a.length; i++) {
-			a[i] += b[i];
-		}
-		return a;
-	}).reduce(function(a, b) {
-		return a+dist[b];
-	}, "");
+function translate(input) { //e.g. "O. O.\nOO .O\n.. .."
+	return input.split("\n") //split each lines ["O. O.","OO .O", ".. .."] 
+		.map(function(value) { //split by space for each lines [["O.","O."],["OO",".O"], ["..",".."]] 
+			return value.split(" ");
+		})
+		.reduce(function(a, b) { //concat to code for same char in each element ["O.OO..", "O..O.."]
+			return a.map(function(v, idx) {
+				return v + b[idx];
+			});
+		})
+		.reduce(function(a, b) { //translate to english and contact to a string "he"
+			return a+dist[b];
+		}, "");
 }
 
 var test1 = "O. O. O. O. O. .O O. O. O. OO\n\
