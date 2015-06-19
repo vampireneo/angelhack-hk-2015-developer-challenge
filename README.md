@@ -1,6 +1,8 @@
 # AngelHack Hong Kong 2015 Developer Challenge
 
 [![Build Status](https://drone.io/github.com/vampireneo/angelhack-hk-2015-developer-challenge/status.png)](https://drone.io/github.com/vampireneo/angelhack-hk-2015-developer-challenge/latest)
+[![Build Status](https://travis-ci.org/vampireneo/angelhack-hk-2015-developer-challenge.svg?branch=master)](https://travis-ci.org/vampireneo/angelhack-hk-2015-developer-challenge)
+[![Code Climate](https://codeclimate.com/github/vampireneo/angelhack-hk-2015-developer-challenge/badges/gpa.svg)](https://codeclimate.com/github/vampireneo/angelhack-hk-2015-developer-challenge)
 
 ## [AngelHack Hong Kong 2015](http://angelhack.com/hackathon/hongkong-2015/)
 
@@ -13,7 +15,7 @@ The input will consistent of an array of 2x6 space-delimited Braille characters.
 Ex: This Input translates to helloworld
 
 ```
-O. O. O. O. O. .O O. O. O. OO 
+O. O. O. O. O. .O O. O. O. OO
 OO .O O. O. .O OO .O OO O. .O
 .. .. O. O. O. .O O. O. O. ..
 ```

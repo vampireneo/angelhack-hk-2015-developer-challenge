@@ -1,3 +1,4 @@
+/*jshint multistr: true */
 var braille = require("./braille.js");
 
 var text = ".O O. .O OO O. O. .O OO O. OO O. .O O. .O\n\
