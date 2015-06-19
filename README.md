@@ -1,5 +1,7 @@
 # AngelHack Hong Kong 2015 Developer Challenge
 
+[![Build Status](https://drone.io/github.com/vampireneo/angelhack-hk-2015-developer-challenge/status.png)](https://drone.io/github.com/vampireneo/angelhack-hk-2015-developer-challenge/latest)
+
 ## [AngelHack Hong Kong 2015](http://angelhack.com/hackathon/hongkong-2015/)
 
 ### Developer Challenge
