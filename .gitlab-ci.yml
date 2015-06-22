@@ -1,0 +1,7 @@
+before_script:
+  - npm -g install mocha
+
+rspec: 
+  script: "npm test"
+  only: 
+    - master
