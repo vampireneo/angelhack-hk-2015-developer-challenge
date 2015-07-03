@@ -3,6 +3,8 @@
 [![Build Status](https://drone.io/github.com/vampireneo/angelhack-hk-2015-developer-challenge/status.png)](https://drone.io/github.com/vampireneo/angelhack-hk-2015-developer-challenge/latest)
 [![Build Status](https://travis-ci.org/vampireneo/angelhack-hk-2015-developer-challenge.svg?branch=master)](https://travis-ci.org/vampireneo/angelhack-hk-2015-developer-challenge)
 [![Code Climate](https://codeclimate.com/github/vampireneo/angelhack-hk-2015-developer-challenge/badges/gpa.svg)](https://codeclimate.com/github/vampireneo/angelhack-hk-2015-developer-challenge)
+[![Test Coverage](https://codeclimate.com/github/vampireneo/angelhack-hk-2015-developer-challenge/badges/coverage.svg)](https://codeclimate.com/github/vampireneo/angelhack-hk-2015-developer-challenge/coverage)
+[![Coverage Status](https://coveralls.io/repos/vampireneo/angelhack-hk-2015-developer-challenge/badge.svg)](https://coveralls.io/r/vampireneo/angelhack-hk-2015-developer-challenge)
 
 ## [AngelHack Hong Kong 2015](http://angelhack.com/hackathon/hongkong-2015/)
 
